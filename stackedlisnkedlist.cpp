@@ -28,3 +28,9 @@ private:
         top = newNode; // Update the top pointer to the new node
         cout << "Push value: " << value << endl;
     }
+
+     // Pop operation: Remove the topmost element from the stack
+    void pop() {
+        if (isEmpty()) {
+            cout << "Stack is empty." << endl;
+        } else {
