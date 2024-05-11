@@ -46,3 +46,6 @@ private:
          if (isEmpty()) {
             cout << "Stack is empty." << endl;
         } else {
+             cout << "Top value: " << top->data << endl;
+        }
+    }
