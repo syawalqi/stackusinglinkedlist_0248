@@ -19,3 +19,9 @@ private:
     Stack() {
         top = NULL; // Initialize the stack with a null top pointer
     }
+
+    // Push operation: Insert an element onto the top of the stack
+    void push(int value) {
+        Node* newNode = new Node(); // Allocate memory for the new node
+        newNode->data = value; // Assign value
+        newNode->next = top; // Set the next pointer of the new node to the current top node
