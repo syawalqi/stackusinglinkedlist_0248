@@ -40,3 +40,6 @@ private:
             delete temp; // Free memory of the popped node
         }
     }
+
+     // Peek/Top operation: Retrieve the value of the topmost element without removing it
+    void peek() {
