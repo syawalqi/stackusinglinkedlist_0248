@@ -34,3 +34,9 @@ private:
         if (isEmpty()) {
             cout << "Stack is empty." << endl;
         } else {
+             cout << "Popped value: " << top->data << endl;
+            Node* temp = top; // Temporary pointer to store the top node
+            top = top->next; // Update the top pointer to the next node
+            delete temp; // Free memory of the popped node
+        }
+    }
